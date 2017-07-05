@@ -61,8 +61,8 @@ int main(int argc,char *argv[])
     	 strncpy(info.ssid,"HUSHAN_5G_1",strlen("HUSHAN_5G_1"));
     	 write_info(&info);
     }
-    printf("ssid=%s\n",info.ssid);
-    printf("psk=%s\n",info.psk);
+ //   printf("ssid=%s\n",info.ssid);
+ //   printf("psk=%s\n",info.psk);
     connect_wifi();
 //    add_ip();
     system("udhcpc -iwlan0");
