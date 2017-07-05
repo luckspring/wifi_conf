@@ -213,7 +213,7 @@ int wifi_scan()
 		p = get_string(temp_str, info.ssid);
 		if (p != NULL)
 		{
-			printf("the ssid find : %s\n", temp_str);
+	//		printf("the ssid find : %s\n", temp_str);
 			p = get_string(temp_str, "WPA");
 			if (p != NULL)
 			{
