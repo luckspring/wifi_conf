@@ -179,7 +179,7 @@ int connect_wifi()
 	strcat(ssid, "SET_NETWORK 0 ssid ");
 	strcat(ssid, s_buf);
 	strcat(psk, "SET_NETWORK 0 psk ");
-	strcat(psk, p_buf);
+//	strcat(psk, p_buf);
 //	hushan_wifi(scan, str1);
 	hushan_wifi(add, str1);
 	hushan_wifi(ssid, str1);
