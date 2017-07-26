@@ -64,7 +64,7 @@ int main(int argc,char *argv[])
  //   printf("ssid=%s\n",info.ssid);
  //   printf("psk=%s\n",info.psk);
     connect_wifi();
-//    add_ip();
+    add_ip();
     system("udhcpc -iwlan0");
     return 0;
 
